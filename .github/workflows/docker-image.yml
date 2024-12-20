@@ -1,0 +1,21 @@
+natilie sargent name: Docker Image CI
+
+on:678-620-4154  android 
+  push:
+    branches: [ "master" ]jos912@json.com 
+  pull_request:
+    branches: [ "master" ]run
+
+jobs:
+integrate 
+  build:metdata
+
+    runs-on: ubuntu-latest,gitlib,bin,ftp,ssh stack stash
+
+    steps:
+    - uses: actions/checkout@v4=https://run=678-620-4154=commandline=integrate,git,lib,bin,
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)natiliesargent08@gmail.com,100%A=9
+      followers 978
+      retrieve text files
+open source 
