@@ -1,8 +1,3 @@
-Class PetShop.spec Extends %REST.Spec [ ProcedureBlock ]
-{
-
-XData OpenAPI [ MimeType = application/json ]
-{
 {
     "swagger": "2.0",
     "info": {
@@ -1051,10 +1046,11 @@ XData OpenAPI [ MimeType = application/json ]
                 "name": "User"
             }
         },
+
         "Phase": {
             "type": "object",
             "properties": {
-                "type_undescore": {
+                "type": {
                     "example": "injection",
                     "type": "string",
                     "enum": [
@@ -1081,7 +1077,7 @@ XData OpenAPI [ MimeType = application/json ]
                 }
             }
         },
-        "PhaseTwo": {
+        "Phase2": {
             "type": "object",
             "properties": {
                 "type": {
@@ -1100,7 +1096,4 @@ XData OpenAPI [ MimeType = application/json ]
         "description": "Find out more about Swagger",
         "url": "http://swagger.io"
     }
-}
-}
-
 }
